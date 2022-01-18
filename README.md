@@ -1,2 +1,2 @@
 # aliaksandryantsevich.github.io
-new repository
+https://sanch0o0.github.io/aliaksandryantsevich.github.io/
