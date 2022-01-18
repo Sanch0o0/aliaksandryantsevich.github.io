@@ -1,0 +1,110 @@
+.main-content-bucket {
+    min-width: 60%;
+    width: 60%;
+    min-height: 300px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bucket-box {
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.bucket-name {
+    margin-top: 0;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 34px;
+    margin-left: 20px;
+}
+
+.share-box {
+    width: 100%;
+    height: 45px;
+    background-color: #f7f9fb;
+    border-radius: 2px 2px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.share-icon {
+    font-family: Material icons;
+    color: #0e88df;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px 0 20px;
+}
+
+.share-text {
+    color: #0e88df;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.empty-bucket-h1 {
+    margin: 18px 25px;
+    color: #181a1b;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.empty-buc-span {
+    display: block;
+    max-width: 470px;
+    margin: 10px 25px 120px;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-empty {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.product-box-ads-- {
+    margin: 15px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.product-img-box-- {
+    width: 210px;
+    height: 160px;
+}
+
+.product-image-- {
+    width: 190px;
+    height: 160px;
+}
+
+.product-name-box-- {
+    width: 160px;
+    margin: 0 20px;
+}
+
+.open-page-->* {
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    color: #0e88df;
+}
+
+.product-description-box-->* {
+    display: block;
+    width: 200px;
+    margin: 0 10px;
+}

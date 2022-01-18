@@ -1,0 +1,212 @@
+body {
+    background-color: rgb(231, 237, 243);
+}
+
+.main-content {
+    display: block;
+}
+
+.main-content-open {
+    width: 70%;
+    margin: 15px auto 150px;
+    min-height: 100px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.open-box-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.containet-open {
+    width: calc(100%-40px);
+    height: 500px;
+    margin: 15px 0;
+    padding-bottom: 20px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.container-left {
+    width: 70%;
+    margin: 0 0 0 18px;
+    position: relative;
+}
+
+.container-right {
+    width: 30%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-but {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    font-family: "Open Sans", system-ui, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message-but {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.show-number {
+    background-color: #0bb978;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    color: white;
+}
+
+.tttext {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    color: #181a1b;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.tttext>* {
+    display: block;
+    margin: 25px 20px;
+}
+
+.description-open {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px 20px;
+    padding-bottom: 15px;
+}
+
+.description-box {
+    width: 23%;
+}
+
+.description-head {
+    margin: 15px 0 9px;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.desription {
+    display: block;
+    font-family: "Open Sans", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 6px 0;
+}
+
+#imageContainer {
+    display: flex;
+    transition: transform 0.2s linear;
+    transform: translateX(0);
+}
+
+.carousel {
+    width: 575px;
+    overflow: hidden;
+}
+
+.car-image {
+    min-width: 575px;
+}
+
+.car-image {
+    transition: 1s;
+}
+
+.car-image:hover {
+    transform: scale(1.1);
+}
+
+.show-but {
+    position: absolute;
+    top: 0;
+}
+
+.box {
+    width: 575px;
+    height: 60px;
+    margin: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-photo {
+    height: 60px;
+    width: 80px;
+    margin: 0 2px;
+}
+
+.red-container {
+    box-sizing: border-box;
+    width: 82px;
+    height: 60px;
+    border: 2px solid red;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform: translateX(2px);
+}
+
+.show-but>* {
+    font-family: Material icons;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(179, 178, 178);
+    font-size: 22px;
+    border: none;
+}
+
+.arrow_back {
+    position: absolute;
+    top: 200px;
+    cursor: pointer;
+}
+
+.arrow_next {
+    position: absolute;
+    top: 200px;
+    right: -580px;
+    cursor: pointer;
+}
+
+.breadcrumbopen {
+    width: 68%;
+    margin: 15px auto 0;
+}
+
+.product-price {
+    margin-bottom: 15px;
+}
+
+.product-price-rub {
+    background-color: white;
+    color: #181a1b;
+    font-family: "Montserrat", system-ui, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 24px
+}
+
+.product-description {
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+    font-family: "Open Sans", system-ui, sans-serif;
+}
